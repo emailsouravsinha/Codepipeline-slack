@@ -14,9 +14,6 @@ from urllib.error import URLError, HTTPError
 # Consider encrypting the value with KMS or use an encrypted parameter in Parameter Store for production deployments.
 SLACK_WEBHOOK_URL = os.environ['SLACK_WEBHOOK_URL']
 SLACK_CHANNEL = os.environ['SLACK_CHANNEL']
-##SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/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'
-##SLACK_CHANNEL = '#cloudmigration'
-
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
